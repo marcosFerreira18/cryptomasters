@@ -4,7 +4,7 @@ export const SectionCheckout = styled.section`
   padding: 50px 50px 0px 50px;
   display: flex;
   justify-content: space-between;
-  @media screen and (max-width: 418px) {
+  @media screen and (max-width: 820px) {
     padding: 100px 15px 0px 15px;
     display: block;
   }
@@ -30,12 +30,11 @@ export const CheckoutContainerItens = styled.div`
       font-size: 20px;
       line-height: 32px;
       color: #f2f5ff;
-
     }
   }
-  @media screen and (max-width: 418px) {
+  @media screen and (max-width: 1024px) {
     width: 100%;
-  height: auto;
+    height: auto;
     ul {
       li {
         margin-top: 0px;
@@ -44,6 +43,7 @@ export const CheckoutContainerItens = styled.div`
       }
     }
   }
+  
 `;
 
 export const Span = styled.span`
@@ -77,7 +77,7 @@ export const SubtitlePricing = styled.h2`
   font-size: 24px;
   line-height: 29px;
   color: #ffffff;
-  @media screen and (max-width: 418px) {
+  @media screen and (max-width: 1024px) {
     font-size: 18px;
     line-height: 22px;
   }
@@ -95,8 +95,10 @@ export const CheckoutContainer = styled.div`
   flex-direction: column;
   /* background-color: #ff5c5c11; */
   position: relative;
-  @media screen and (max-width: 418px) {
+
+  @media screen and (max-width: 1024px) {
     width: 100%;
+    /* height: auto; */
   }
 
   &::after {

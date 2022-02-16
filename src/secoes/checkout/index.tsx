@@ -47,7 +47,7 @@ const Checkout: React.FC = () => {
         </BoxValue>
         <SubPricing>Pague em até 12x no cartão ou à vista no PIX.</SubPricing>
         <ButtonCta href="https://pay.kiwify.com.br/R91zInv">
-          Garantir minha vaga
+          Garantir minha vaga por R$ 2,33 ao dia
         </ButtonCta>
         <SubButton>COMPRA 100% SEGURA</SubButton>
       </CheckoutContainer>
