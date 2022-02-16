@@ -2,30 +2,103 @@ import styled from "styled-components";
 export const SectionCheckout = styled.section`
   min-height: 100vh;
   padding: 50px 50px 0px 50px;
+  display: flex;
+  justify-content: space-between;
   @media screen and (max-width: 418px) {
     padding: 100px 15px 0px 15px;
+    display: block;
   }
 `;
+
+export const CheckoutContainerItens = styled.div`
+  /* margin: 15px; */
+  padding: 20px;
+  width: 50%;
+  height: 85vh;
+
+  ul {
+    padding: 0;
+    margin: 0;
+
+    li {
+      text-decoration: none;
+      list-style: none;
+      margin-top: 5px;
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 32px;
+      color: #f2f5ff;
+
+    }
+  }
+  @media screen and (max-width: 418px) {
+    width: 100%;
+  height: auto;
+    ul {
+      li {
+        margin-top: 0px;
+        font-size: 16px;
+        line-height: 25px;
+      }
+    }
+  }
+`;
+
+export const Span = styled.span`
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18.6283px;
+  line-height: 23px;
+  letter-spacing: -0.02em;
+  color: #ff5c5c;
+`;
+
+export const TitleCheckout = styled.h1`
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 62px;
+  line-height: 61px;
+  max-width: 80%;
+  color: #ffffff;
+  @media screen and (max-width: 418px) {
+    font-size: 50px;
+    line-height: 50px;
+  }
+`;
+
+export const SubtitlePricing = styled.h2`
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+  @media screen and (max-width: 418px) {
+    font-size: 18px;
+    line-height: 22px;
+  }
+`;
+
 export const CheckoutContainer = styled.div`
+  /* margin: 15px; */
   padding: 20px;
   border: 2px solid rgba(83, 139, 240, 0.05);
-  width: 100%;
-  height: 85vh;
+  width: 35%;
+  height: 70vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
   /* background-color: #ff5c5c11; */
   position: relative;
-
-  ul{
-      padding: 0;
-      margin: 0;
-      li{
-          text-decoration: none;
-          list-style: none;
-      }
+  @media screen and (max-width: 418px) {
+    width: 100%;
   }
+
   &::after {
     content: "";
     position: absolute;
@@ -49,12 +122,12 @@ export const CheckoutContainer = styled.div`
     height: 80px;
     border-radius: 50%;
     z-index: -1;
-    background: linear-gradient(217.85deg, #4aa6f7 -1.54%, #1141bd 101.14%);
     background: linear-gradient(
-      270deg,
-      #ff5c5c 15%,
-      rgba(255, 133, 133, 0) 100%
+      86.58deg,
+      rgba(83, 227, 237, 0.2) 2.82%,
+      rgba(42, 254, 231, 0.2) 91.51%
     );
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
 
     -webkit-animation: card-circle 12s ease-in-out infinite alternate;
     animation: card-circle 12s ease-in-out infinite alternate;
@@ -99,36 +172,60 @@ export const CheckoutContainer = styled.div`
     }
   }
 `;
+export const SubButton = styled.p`
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18.6283px;
+  line-height: 23px;
+  /* identical to box height */
 
+  text-align: center;
+
+  color: #ffffff;
+`;
+
+export const SubPricing = styled.p`
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #e2b8b8;
+`;
 export const BoxValue = styled.div`
   display: flex;
   align-items: center;
   p {
     font-size: 24px;
     margin: 0;
+    padding: 0;
+    font-weight: bold;
   }
   h1 {
     font-family: Montserrat;
     font-style: normal;
-    font-weight: 600;
-    font-size: 74.5133px;
+    font-weight: 700;
+    font-size: 10em;
     line-height: 91px;
     margin: 0;
   }
 `;
 
-
 export const ButtonCta = styled.a`
   color: #fff;
   font-size: 16px;
   text-decoration: none;
-  background: linear-gradient(270deg, #ff5c5c 0%, rgba(255, 133, 133, 0) 100%);
-  border-radius: 5.17454px;
+  background: linear-gradient(270deg, #278bff 0%, #5488ed 100%);
+  box-shadow: 0px 10px 10px rgba(5, 15, 23, 0.6);
+  border-radius: 14.7289px;
   padding: 16px 28px;
-  border: 1px solid #ff5c5c;
   cursor: pointer;
+  font-weight: 600;
+
   font-family: Montserrat;
   text-align: center;
+  width: 100%;
   @media screen and (max-width: 430px) {
     width: 100%;
   }
