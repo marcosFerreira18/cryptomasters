@@ -16,8 +16,16 @@ import Topicos from "../secoes/topicos";
 import Checkout from "../secoes/checkout";
 import LogoSite from "../assets/logo-masters.svg";
 import Hero from "../secoes/hero";
+import ChatBot, { ChatBotProps } from "./chatBot";
 
 const Home: NextPage = () => {
+  let contatoChatBot: ChatBotProps = {
+    nome: "Erikson Mateus",
+    bio: "Trade especialista criador do Crypto Masters.",
+    urlImagemPerfil: "",
+    whatsapp: "5527999333180",
+  };
+
   return (
     <div>
       <HeaderPage>
@@ -156,6 +164,7 @@ const Home: NextPage = () => {
       {/* <SectionConteudo /> */}
       <Checkout />
       <Modulos />
+      <ChatBot {...contatoChatBot} />
     </div>
   );
 };
