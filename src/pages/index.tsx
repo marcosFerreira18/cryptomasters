@@ -7,16 +7,22 @@ import Capital from "../assets/capital.svg";
 import Analise from "../assets/analis.svg";
 import Bear from "../assets/bear.svg";
 import Image from "next/image";
+import { HeaderPage } from "../styles/components/header-page";
 
 import { SectionSecondary } from "../styles/components/section-secondary";
 import Modulos from "../secoes/modulos";
 import SectionConteudo from ".././secoes/conteudo";
 import Topicos from "../secoes/topicos";
 import Checkout from "../secoes/checkout";
+import LogoSite from "../assets/logo-masters.svg";
+import Hero from "../secoes/hero";
 
 const Home: NextPage = () => {
   return (
     <div>
+      <HeaderPage>
+        <LogoSite className="icon-logo" />
+      </HeaderPage>
       <Head>
         <title>Crypto Masters: Curso de Criptoativos</title>
         <meta
@@ -24,10 +30,13 @@ const Home: NextPage = () => {
           content="Lucre todo santo dia com criptoativos."
         />
         <link rel="icon" href="/favicon.ico" />
-        <meta name="facebook-domain-verification" content="agbypyzewa83w7o02ndi1fnck8aqu8" />
+        <meta
+          name="facebook-domain-verification"
+          content="agbypyzewa83w7o02ndi1fnck8aqu8"
+        />
       </Head>
-
-      <FirstSection>
+      <Hero />
+      {/* <FirstSection>
         <video autoPlay muted className="bgsec-first" loop id="myVideo">
           <source src="./video.mp4" type="video/mp4" />
         </video>
@@ -94,7 +103,7 @@ const Home: NextPage = () => {
             </div>
           </div>
         </div>
-      </FirstSection>
+      </FirstSection> */}
       <SectionSecondary>
         <div className="container">
           <div className="row">
@@ -144,7 +153,7 @@ const Home: NextPage = () => {
         </div>
       </SectionSecondary>
       <Topicos />
-      <SectionConteudo />
+      {/* <SectionConteudo /> */}
       <Checkout />
       <Modulos />
     </div>

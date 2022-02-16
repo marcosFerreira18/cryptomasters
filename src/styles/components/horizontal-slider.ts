@@ -24,6 +24,7 @@ export const CardSlider = styled.div`
   margin-right: 30px;
   border-radius: 10px;
   position: relative;
+  z-index: -1;
 
   .img-cover-card {
     object-fit: cover;

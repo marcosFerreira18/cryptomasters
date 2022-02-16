@@ -7,6 +7,7 @@ export const HeaderPage = styled.nav`
   backdrop-filter: blur(12px);
   padding: 30px;
   position: fixed;
+  z-index: 10000;
   top: 0;
   left: 0;
   .icon-logo {

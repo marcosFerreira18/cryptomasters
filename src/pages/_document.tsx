@@ -49,8 +49,10 @@ export default class MyDocument extends Document {
             rel="stylesheet"
           />
 
+          <link rel="preconnect" href="https://fonts.googleapis.com" />
+          <link rel="preconnect" href="https://fonts.gstatic.com" />
           <link
-            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500;700;900&family=Syncopate:wght@400;700&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;700&family=Raleway:wght@100;400;700&family=Syncopate:wght@400;700&display=swap"
             rel="stylesheet"
           />
           {/* 
@@ -69,7 +71,10 @@ export default class MyDocument extends Document {
 
           {/* <!-- Twitter --> */}
           <meta property="twitter:card" content="summary_large_image" />
-          <meta property="twitter:url" content="https://cryptomasters.com.br/" />
+          <meta
+            property="twitter:url"
+            content="https://cryptomasters.com.br/"
+          />
           <meta property="twitter:title" content="Não perca a próxima onda!" />
           <meta
             property="twitter:description"

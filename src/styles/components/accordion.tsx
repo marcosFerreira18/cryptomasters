@@ -19,6 +19,7 @@ const Accordion: React.FC<IAccordion> = ({ title, content }) => {
         lineHeight: "15px",
         borderBottom: "1.5px solid rgb(18, 70, 148)",
         margin: 10,
+        zIndex:-1
       }}
       
     >
