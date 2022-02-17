@@ -1,4 +1,5 @@
-import { useState } from "react";
+import React, { useState } from "react";
+import { AccordionTitle } from "./styles";
 
 interface IAccordion {
   title: string;
@@ -19,16 +20,15 @@ const Accordion: React.FC<IAccordion> = ({ title, content }) => {
         lineHeight: "15px",
         borderBottom: "1.5px solid rgb(18, 70, 148)",
         margin: 10,
-        zIndex:-1
+        zIndex: -1,
       }}
-      
     >
       <button
         style={{
           width: "100%",
           position: "relative",
           textAlign: "left",
-          padding: "4px",
+          padding: "3px",
           border: "none",
           background: "transparent",
           outline: "none",
@@ -37,7 +37,7 @@ const Accordion: React.FC<IAccordion> = ({ title, content }) => {
         onClick={toggle}
         type="button"
       >
-        <h3>+ {title}</h3>
+        <AccordionTitle>+ {title}</AccordionTitle>
       </button>
       <div style={{ display: isShowing ? "block" : "none", padding: "5px" }}>
         <p>{content}</p>

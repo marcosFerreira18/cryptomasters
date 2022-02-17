@@ -17,6 +17,7 @@ import Checkout from "../secoes/checkout";
 import LogoSite from "../assets/logo-masters.svg";
 import Hero from "../secoes/hero";
 import ChatBot, { ChatBotProps } from "../chatBot";
+import Footer from "../footer";
 
 const Home: NextPage = () => {
   let contatoChatBot: ChatBotProps = {
@@ -165,6 +166,7 @@ const Home: NextPage = () => {
       <Checkout />
       <Modulos />
       <ChatBot {...contatoChatBot} />
+      <Footer />
     </div>
   );
 };

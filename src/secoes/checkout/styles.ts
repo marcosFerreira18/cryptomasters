@@ -1,15 +1,22 @@
 import styled from "styled-components";
 export const SectionCheckout = styled.section`
   min-height: 100vh;
-  padding: 50px 50px 0px 50px;
+  padding: 100px 50px 0px 50px;
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
   @media screen and (max-width: 820px) {
     padding: 100px 15px 0px 15px;
     display: block;
   }
+  width: 100%;
 `;
-
+export const Container = styled.div`
+  max-width: 1440px;
+  /* border: 1px solid white; */
+  /* display: flex; */
+  flex-direction: column;
+`;
 export const CheckoutContainerItens = styled.div`
   /* margin: 15px; */
   padding: 20px;
@@ -43,7 +50,6 @@ export const CheckoutContainerItens = styled.div`
       }
     }
   }
-  
 `;
 
 export const Span = styled.span`
@@ -134,25 +140,6 @@ export const CheckoutContainer = styled.div`
     -webkit-animation: card-circle 12s ease-in-out infinite alternate;
     animation: card-circle 12s ease-in-out infinite alternate;
   }
-  @-webkit-keyframes card-circle {
-    0%,
-    5% {
-      top: 5%;
-      left: 5%;
-    }
-    40% {
-      top: -5%;
-    }
-    70% {
-      top: 95%;
-      left: 20%;
-    }
-    95%,
-    100% {
-      top: 80%;
-      left: 80%;
-    }
-  }
 
   @keyframes card-circle {
     0%,
@@ -219,7 +206,7 @@ export const ButtonCta = styled.a`
   font-size: 16px;
   text-decoration: none;
   background: linear-gradient(270deg, #278bff 0%, #5488ed 100%);
-  box-shadow: 0px 10px 10px rgba(5, 15, 23, 0.6);
+  box-shadow: 0px 0px 100px rgba(37, 101, 150, 0.4);
   border-radius: 14.7289px;
   padding: 16px 28px;
   cursor: pointer;
