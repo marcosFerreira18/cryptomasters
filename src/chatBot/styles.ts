@@ -150,5 +150,23 @@ export const ImageProfileChatBot = styled.img`
   border: 3px solid #ffffff;
   border-radius: 100%;
 
-  box-shadow: 0px 10px 40px rgba(79, 13, 140, 1);
+  /* box-shadow: 0px 10px 40px rgba(79, 13, 140, 1); */
+
+  animation: pulse-white 2s infinite;
+  @keyframes pulse-white {
+    0% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);
+    }
+
+    70% {
+      transform: scale(1.1);
+      box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+    }
+
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+  }
 `;

@@ -18,7 +18,7 @@ const Topicos: React.FC = () => {
         <HorizontalSlider>
           {Api.topicos.map((m, i) => {
             return (
-              <CardSlider>
+              <CardSlider key={i}>
                 <img
                   src="staking-cover.png"
                   alt="resultados"

@@ -14,7 +14,7 @@ const Modulos: React.FC = () => {
         <div className="row">
           {Api.faq.map((m, i) => {
             return (
-              <div className="col-xs-12">
+              <div className="col-xs-12" key={i}>
                 <Accordion title={m.titulo} content={m.descricao} />
               </div>
             );

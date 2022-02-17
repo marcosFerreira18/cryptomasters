@@ -16,7 +16,7 @@ import Topicos from "../secoes/topicos";
 import Checkout from "../secoes/checkout";
 import LogoSite from "../assets/logo-masters.svg";
 import Hero from "../secoes/hero";
-import ChatBot, { ChatBotProps } from "./chatBot";
+import ChatBot, { ChatBotProps } from "../chatBot";
 
 const Home: NextPage = () => {
   let contatoChatBot: ChatBotProps = {
