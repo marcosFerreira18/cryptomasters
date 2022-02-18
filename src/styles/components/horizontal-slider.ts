@@ -5,7 +5,7 @@ export const HorizontalSlider = styled.div`
   display: flex;
   overflow: auto;
   /* white-space: nowrap; */
-  min-height: 70vh;
+  min-height: 45vh;
   padding-left: 10vw;
   margin: 30px 0;z-index: -1; 
   /* background-color: #000; */
