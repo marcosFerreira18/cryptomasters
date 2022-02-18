@@ -13,9 +13,11 @@ export const SectionCheckout = styled.section`
 `;
 export const Container = styled.div`
   max-width: 1440px;
-  /* border: 1px solid white; */
-  /* display: flex; */
-  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  @media screen and (max-width: 820px) {
+    flex-direction: column;
+  }
 `;
 export const CheckoutContainerItens = styled.div`
   /* margin: 15px; */
@@ -36,17 +38,19 @@ export const CheckoutContainerItens = styled.div`
       font-weight: normal;
       font-size: 20px;
       line-height: 32px;
-      color: #f2f5ff;
+      /* color: #f2f5ff; */
+      color: #e4e4e4;
     }
   }
   @media screen and (max-width: 1024px) {
     width: 100%;
     height: auto;
+    padding: 0px;
     ul {
       li {
-        margin-top: 0px;
-        font-size: 16px;
-        line-height: 25px;
+        margin-top: 5px;
+        font-size: 14px;
+        line-height: 20px;
       }
     }
   }
@@ -71,8 +75,10 @@ export const TitleCheckout = styled.h1`
   max-width: 80%;
   color: #ffffff;
   @media screen and (max-width: 418px) {
-    font-size: 50px;
-    line-height: 50px;
+    font-size: 32px;
+    line-height: 32px;
+    max-width: 100%;
+    margin-bottom: 15px;
   }
 `;
 

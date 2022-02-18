@@ -11,16 +11,16 @@ const Modulos: React.FC = () => {
           <h2>FAQ: tire suas dúvidas</h2>
         </div>
 
-        <div className="row">
+        {/* <div className="row"> */}
           {Api.faq.map((m, i) => {
             return (
-              <div className="col-xs-12" key={i}>
+              // <div className="col-xs-12" key={i}>
                 <Accordion title={m.titulo} content={m.descricao} />
-              </div>
+            
             );
           })}
         </div>
-      </div>
+      {/* </div> */}
     </SectionSecondary>
   );
 };

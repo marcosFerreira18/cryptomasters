@@ -16,51 +16,19 @@ export const Api = {
   topicos: [
     {
       titulo: "A BASE DOS GANHOS CONSISTENTES",
-      descricao: `A analisar e investir nas Criptos mais promissoras com alto poder de valorização,
-      antes da sua explosão de preço e estar sempre um passo á frente através das ferramentas e setups estratégicos de como encontrar gemas mais promissoras e com potencial de explosão a curto prazo.
-      Um passo a passo de como usar as principais ferramentas para entrada, observação e acompanhamento do mercado.
-      Metaverso | Defi | NFTs, entenda este mercado e tenha acesso as principais oportunidades de ganho para 2022.`,
+      descricao: `Um passo a passo de como usar as principais ferramentas de análise para encontrar projetos promissores tanto na parte Fundamentalista (Whitepaper - Metaverso | Defi | NFTs), quanto na parte Gráfica (Análise de Candles, Padrões Gráficos, Indicadores Gráficos e etc).`,
     },
     {
       titulo: "TRADE DE CRIPTOATIVOS",
-      descricao: `Através do nosso método, Exclusivo CoinExpet, aprenda a
-      usar a fusão entre Análise Técnica e Fundamentalista a seu
-      favor.
-      Faremos operações usando os principais set-ups de entrada
-      e saída com estratégias de moderada a agressiva.
-      Um mergulho nos principais padrões de candles, price
-      action aplicado aos movimentos dos criptoativos, principais
-      formações gráficas e indicadores, suportes e resistências,
-      linhas de tendência, canais e médias móveis.`,
+      descricao: `Através do nosso método, Exclusivo CoinExpet, aprenda a usar a fusão entre Análise Técnica e Fundamentalista a seu favor. Faremos operações usando os principais set-ups de entrada e saída com estratégias de moderada a agressiva.`,
     },
     {
       titulo: "GERENCIAMENTO DE RISCO",
-      descricao: `Através do nosso método, Exclusivo CoinExpet, aprenda a
-      usar a fusão entre Análise Técnica e Fundamentalista a seu
-      favor.
-      Faremos operações usando os principais set-ups de entrada
-      e saída com estratégias de moderada a agressiva.
-      Um mergulho nos principais padrões de candles, price
-      action aplicado aos movimentos dos criptoativos, principais
-      formações gráficas e indicadores, suportes e resistências,
-      linhas de tendência, canais e médias móveis.`,
+      descricao: `Já tomou um susto ou perdeu dinheiro com a queda do Bitcoin e das Altcoins? Entenda como o Stop pode ser seu alido para evitar maiores perdas. Vamos falar principalmente sobre Stop Financeiro e Stop Técnico e como eles podem evitar a sua ruína.`,
     },
     {
       titulo: "ALAVANCAGEM [SHORT E LONG]",
-      descricao: `Já tomou um susto, ou perdeu dinheiro, com a queda do
-      Bitcoin e das Altcoins? Se a resposta foi “SIM”, este curso é
-      perfeito para você!!
-      Operar contra tendência nunca foi uma boa ideia, mas
-      saiba que é possível operar a favor da tendência de queda,
-      e ainda lucrar com isso!
-      Como?
-      Chamamos essa modalidade de SHORT, ou operar vendido,
-      e esta é uma super ferramenta para lucrar em momento de
-      queda do mercado.
-      2022 promete ser um ano de fortes emoções em cripto,
-      que seja também de fortes ganhos!
-      Aprenda as ferramentas, e estratégias, que uso para lucrar
-      mesmo com o mercado em queda!`,
+      descricao: `Com o nosso metódo aprenda a ganhar dinheiro com a queda dos criptoativos, chamamos essa modalidade de SHORT, ou operar vendido, e esta é uma super ferramenta para lucrar em momento de queda do mercado.`,
     },
   ],
   modulos: [

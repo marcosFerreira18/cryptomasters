@@ -57,6 +57,7 @@ export const Description = styled.h1`
 `;
 
 export const SectionConteudo = styled.section`
+  background: linear-gradient(119.13deg, #fff9f9 27.28%, #ffb4b4 98.26%);
   min-height: 100vh;
   padding: 150px 50px 0px 50px;
   display: flex;

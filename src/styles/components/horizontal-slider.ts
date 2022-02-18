@@ -7,7 +7,8 @@ export const HorizontalSlider = styled.div`
   /* white-space: nowrap; */
   min-height: 70vh;
   padding-left: 10vw;
-  margin: 30px 0;
+  margin: 30px 0;z-index: -1; 
+  /* background-color: #000; */
   @media screen and (max-width: 430px) {
     height: 50vh;
     padding-bottom: 10px;
@@ -24,7 +25,7 @@ export const CardSlider = styled.div`
   margin-right: 30px;
   border-radius: 10px;
   position: relative;
-  z-index: -1;
+  /* z-index: -1; */
 
   .img-cover-card {
     object-fit: cover;

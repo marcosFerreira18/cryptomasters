@@ -9,7 +9,7 @@ import {
 } from "../../styles/components/horizontal-slider";
 const Topicos: React.FC = () => {
   return (
-    <SectionSecondary>
+    <SectionSecondary style={{background: "#000"}}>
       <div className="container">
         <div className="row">
           <h3>O QUÊ VOCÊ VAI APRENDER NO CURSO </h3>

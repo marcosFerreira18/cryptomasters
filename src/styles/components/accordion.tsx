@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { AccordionTitle } from "./styles";
+import { AccordionDescription, AccordionTitle } from "./styles";
 
 interface IAccordion {
   title: string;
@@ -18,7 +18,7 @@ const Accordion: React.FC<IAccordion> = ({ title, content }) => {
       style={{
         marginBottom: "15px",
         lineHeight: "15px",
-        borderBottom: "1.5px solid rgb(18, 70, 148)",
+        borderBottom: "1.5px solid rgba(79, 161, 71, 0.26)",
         margin: 10,
         zIndex: -1,
       }}
@@ -39,8 +39,8 @@ const Accordion: React.FC<IAccordion> = ({ title, content }) => {
       >
         <AccordionTitle>+ {title}</AccordionTitle>
       </button>
-      <div style={{ display: isShowing ? "block" : "none", padding: "5px" }}>
-        <p>{content}</p>
+      <div style={{ display: isShowing ? "block" : "none", padding: "10px", background: "#0003", borderRadius: 5 }}>
+        <AccordionDescription>{content}</AccordionDescription>
       </div>
     </div>
   );
