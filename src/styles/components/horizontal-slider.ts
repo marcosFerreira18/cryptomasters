@@ -6,9 +6,12 @@ export const HorizontalSlider = styled.div`
   overflow: auto;
   /* white-space: nowrap; */
   min-height: 45vh;
-  padding-left: 10vw;
-  margin: 30px 0;z-index: -1; 
+  margin: 30px 0;
+  z-index: -1;
   /* background-color: #000; */
+  scrollbar-width: none;
+  padding: 10px;
+
   @media screen and (max-width: 430px) {
     height: 50vh;
     padding-bottom: 10px;
@@ -20,7 +23,7 @@ export const CardSlider = styled.div`
   background-color: #333;
   display: flex;
   align-items: flex-end;
-  width: 400px;
+  width: 350px;
   /* border: 1px solid #fff; */
   margin-right: 30px;
   border-radius: 10px;
@@ -46,7 +49,7 @@ export const BodyCard = styled.div`
   );
   backdrop-filter: blur(17.2662px);
   border-radius: 10px;
-  height: 70%;
+  height: 80%;
   padding: 20px;
   h2 {
     font-size: 20px;
