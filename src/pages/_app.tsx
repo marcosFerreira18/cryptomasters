@@ -6,7 +6,7 @@ import { ThemeProvider } from "styled-components";
 import GlobalStyle from "../styles/global";
 import theme from "../styles/theme";
 import "bootstrap/dist/css/bootstrap.css"; // Add this line
-
+import "../styles/fonts.css";
 import * as gtag from "../utils/gtag";
 
 const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {

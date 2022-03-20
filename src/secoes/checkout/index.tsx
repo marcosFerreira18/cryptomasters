@@ -31,7 +31,7 @@ const Checkout: React.FC = () => {
             <li>📌 Estratégias de entrada e saída.</li>
             <li>📌 Gerenciamento de Risco.</li>
             <li>📌 Renda passiva com Staking.</li>
-            <li>📌 Alavancagem da prática (short e long).</li>
+            <li>📌 Alavancagem na prática (short e long).</li>
             <li>🎁 3 super ebooks de Bônus.</li>
             <li>🎁 Material de apoio e direto comigo.</li>
             <li>🔑 Teste drive do curso por 7 dias com garantia total.</li>

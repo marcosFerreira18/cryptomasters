@@ -1,0 +1,37 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("../assets/fonts/Montserrat/static/Montserrat-Light.ttf");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("../assets/fonts/Montserrat/static/Montserrat-Bold.ttf");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("../assets/fonts/Montserrat/static/Montserrat-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url("../assets/fonts/Raleway/Raleway-VariableFont_wght.ttf");
+    /* src: url("../assets/fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf"); */
+    /* font-weight: 400; */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Syncopate";
+    src: url("../assets/fonts/Syncopate/Syncopate-Regular.ttf");
+    src: url("../assets/fonts/Syncopate/Syncopate-Bold.ttf");
+    /* src: url("../assets/fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf"); */
+    /* font-weight: 400; */
+    font-style: normal;
+}

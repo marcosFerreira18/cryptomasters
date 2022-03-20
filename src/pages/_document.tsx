@@ -8,7 +8,6 @@ import Document, {
   NextScript,
 } from "next/document";
 import { ServerStyleSheet } from "styled-components";
-import Script from "next/script";
 
 import { GA_TRACKING_ID } from "../utils/gtag";
 
@@ -46,20 +45,34 @@ export default class MyDocument extends Document {
       <Html lang="pt">
         <Head>
           <meta charSet="utf-8" />
-
           <link
-            href="https://fonts.googleapis.com/css?family=Roboto:400,500,700"
+            href="../assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf"
+            rel="stylesheet"
+          />
+          <link
+            href="../assets/fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf"
             rel="stylesheet"
           />
 
-          <link rel="preconnect" href="https://fonts.googleapis.com" />
-          <link rel="preconnect" href="https://fonts.gstatic.com" />
           <link
-            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;700&family=Raleway:wght@100;400;700&family=Syncopate:wght@400;700&display=swap"
+            href="../assets/fonts/Syncopate/Syncopate-Regular.ttf"
             rel="stylesheet"
           />
-          {/* 
-<!-- Open Graph / Facebook --> */}
+          <link
+            href="../assets/fonts/Syncopate/Syncopate-Bold.ttf"
+            rel="stylesheet"
+          />
+
+          <link href="../assets/fonts/Roboto/Roboto-Bold.ttf" rel="stylesheet" />
+          <link
+            href="../assets/fonts/Raleway/Raleway-Italic-VariableFont_wght.ttf"
+            rel="stylesheet"
+          />
+          <link
+            href="../assets/fonts/Raleway/Raleway-VariableFont_wght.ttf"
+            rel="stylesheet"
+          />
+
           <meta property="og:type" content="website" />
           <meta property="og:url" content="https://cryptomasters.com.br" />
           <meta property="og:title" content="Não perca a próxima onda!" />

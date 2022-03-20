@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const AccordionTitle = styled.h1`
-  font-family: Montserrat;
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
   font-size: 1em;
@@ -15,7 +15,7 @@ export const AccordionTitle = styled.h1`
 `;
 
 export const AccordionDescription = styled.h6`
-  font-family: Montserrat;
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
   font-size: 14px;

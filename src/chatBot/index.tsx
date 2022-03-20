@@ -70,7 +70,7 @@ const ChatBot: React.FC<ChatBotProps> = (contato: ChatBotProps) => {
         </BodyChatBot>
       ) : null}
 
-      <ImageProfileChatBot onClick={()=> setShowChat(!showChat)} src="erikson.png" />
+      <ImageProfileChatBot onClick={()=> setShowChat(!showChat)} src="whats.png" />
     </ContainerChatBot>
   );
 };

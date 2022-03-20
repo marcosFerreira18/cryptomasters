@@ -20,13 +20,14 @@ import ChatBot, { ChatBotProps } from "../chatBot";
 import Footer from "../footer";
 import { SectionConteudo } from "../styles/components/section-conteudo";
 import Resultados from "../secoes/resultados";
+import Profile from "../secoes/profile";
 
 const Home: NextPage = () => {
   let contatoChatBot: ChatBotProps = {
     nome: "Erikson Mateus",
     bio: "Trade especialista criador do Crypto Masters.",
     urlImagemPerfil: "",
-    whatsapp: "5527999333180",
+    whatsapp: "5527999299076",
   };
 
   return (
@@ -99,6 +100,7 @@ const Home: NextPage = () => {
        */}
       {/* <SectionConteudo /> */}
       <Topicos />
+      <Profile />
       <Checkout />
       <Modulos />
       <ChatBot {...contatoChatBot} />

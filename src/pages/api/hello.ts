@@ -4,6 +4,7 @@ import type { NextApiRequest, NextApiResponse } from "next";
 type Modulo = {
   titulo: string;
   descricao: string;
+  img: string;
 };
 
 type Data = {
@@ -15,20 +16,29 @@ type Data = {
 export const Api = {
   topicos: [
     {
-      titulo: "A BASE DOS GANHOS CONSISTENTES",
-      descricao: `Um passo a passo de como usar as principais ferramentas de análise para encontrar projetos promissores tanto na parte Fundamentalista (Whitepaper - Metaverso | Defi | NFTs), quanto na parte Gráfica (Análise de Candles, Padrões Gráficos, Indicadores Gráficos e etc).`,
-    },
-    {
-      titulo: "TRADE DE CRIPTOATIVOS",
-      descricao: `Através do nosso método, Exclusivo CoinExpet, aprenda a usar a fusão entre Análise Técnica e Fundamentalista a seu favor. Faremos operações usando os principais set-ups de entrada e saída com estratégias de moderada a agressiva.`,
-    },
-    {
-      titulo: "GERENCIAMENTO DE RISCO",
-      descricao: `Já tomou um susto ou perdeu dinheiro com a queda do Bitcoin e das Altcoins? Entenda como o Stop pode ser seu alido para evitar maiores perdas. Vamos falar principalmente sobre Stop Financeiro e Stop Técnico e como eles podem evitar a sua ruína.`,
-    },
-    {
+      img: "alavancagem.png",
       titulo: "ALAVANCAGEM [SHORT E LONG]",
-      descricao: `Com o nosso metódo aprenda a ganhar dinheiro com a queda dos criptoativos, chamamos essa modalidade de SHORT, ou operar vendido, e esta é uma super ferramenta para lucrar em momento de queda do mercado.`,
+      descricao: `2022 promete ser um ano de fortes emoções em cripto, que seja também de fortes ganhos! Aprenda as ferramentas, e estratégias, que uso para lucrar mesmo com o mercado em queda!`,
+    },
+    {
+      img: "ganhos.png",
+      titulo: "GANHOS CONSISTENTES",
+      descricao: `Use ferramentas de análise para encontrar os projetos mais promissores, conciliando análise gráfica e fundamentalista. Whitepaper - Metaverso | Defi | NFTs. Candles, Padrões Gráficos, Indicadores Gráficos e etc).`,
+    },
+    {
+      img: "trade.png",
+      titulo: "TRADE DE CRIPTOATIVOS",
+      descricao: `Através do nosso método, aprenda a usar a fusão entre Análise Técnica e Fundamentalista a seu favor. Faremos operações usando os principais set-ups de entrada e saída com estratégias de moderadas a agressivas.`,
+    },
+    {
+      img: "risco.png",
+      titulo: "GERENCIAMENTO DE RISCO",
+      descricao: `Entenda como o Stop pode ser seu alido para evitar maiores perdas. Vamos falar principalmente sobre Stop Financeiro e Stop Técnico e como eles podem evitar a sua ruína.`,
+    },
+    {
+      img: "setup.png",
+      titulo: "SET-UP PROFISSIONAL",
+      descricao: `Configure o seu set-up como um profssional faz. Saiba quais indicadores usar a cada mudança do mercado. Aumente sua assertividade aplicado técnicas profissionais.`,
     },
   ],
   modulos: [

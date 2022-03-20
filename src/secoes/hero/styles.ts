@@ -31,18 +31,18 @@ export const Descricao = styled.p`
   line-height: 28px;
   letter-spacing: 0.04em;
   color: #9598a9;
-  font: 500 20px Montserrat;
+  font: 500 20px "Montserrat";
   text-align: center;
   max-width: 50%;
   @media screen and (max-width: 430px) {
     text-align: left;
-    font: 500 16px Montserrat;
+    font: 500 16px "Montserrat";
     max-width: 100%;
   }
 `;
 
 export const Titulo = styled.h4`
-  font-family: Syncopate;
+  font-family: "Syncopate";
   font-style: normal;
   font-weight: bold;
   font-size: 64px;
@@ -59,7 +59,7 @@ export const Titulo = styled.h4`
 `;
 
 export const SubTitulo = styled.h4`
-  font-family: Raleway;
+  font-family: "Raleway";
   font-style: normal;
   font-weight: 900;
   font-size: 64px;
@@ -83,7 +83,7 @@ export const BtnCta = styled.a`
   text-decoration: none;
   color: #fff;
   z-index: 10;
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 600;
   font-size: 22px;

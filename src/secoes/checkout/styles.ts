@@ -200,7 +200,7 @@ export const BoxValue = styled.div`
   h1 {
     font-family: Montserrat;
     font-style: normal;
-    font-weight: 700;
+    font-weight: bold;
     font-size: 10em;
     line-height: 91px;
     margin: 0;

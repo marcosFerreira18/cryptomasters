@@ -22,7 +22,7 @@ export const HeaderChatBot = styled.div`
 `;
 
 export const NameCotactChatBot = styled.h3`
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -31,7 +31,7 @@ export const NameCotactChatBot = styled.h3`
   margin: 0 10px;
 `;
 export const BioCotactChatBot = styled.p`
-  font-family: Raleway;
+  font-family: "Raleway";
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
@@ -81,7 +81,7 @@ export const MessageListChatBot = styled.div`
 export const MessageHourChatBot = styled.span``;
 
 export const MessageTextChatBot = styled.p`
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -95,7 +95,7 @@ export const FooteerChatBot = styled.div`
   padding: 10px;
 `;
 export const DisclamerTextChatBot = styled.p`
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
   font-size: 10px;
@@ -113,7 +113,7 @@ export const InputChatBot = styled.input`
   margin-right: 5px;
   height: 40px;
   &::placeholder {
-    font-family: Montserrat;
+    font-family: "Montserrat";
     font-style: normal;
     font-weight: 500;
     font-size: 10px;
@@ -145,10 +145,11 @@ export const SendButtonChatBot = styled.button`
 export const ImageProfileChatBot = styled.img`
   margin-top: 15px;
   background: #f2f;
-  width: 67px;
-  height: 67px;
-  border: 3px solid #ffffff;
+  width: 70px;
+  height: 70px;
+  /* border: 3px solid #ffffff; */
   border-radius: 100%;
+  object-fit: cover;
 
   /* box-shadow: 0px 10px 40px rgba(79, 13, 140, 1); */
 
