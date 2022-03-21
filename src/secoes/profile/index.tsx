@@ -49,7 +49,7 @@ const Profile: React.FC = () => {
         <DetailProfile>
           <h4>6 ANOS DE EXPERIÊNCIA</h4>
           <h1>Curso criado por quem opera no mercado cripto todos os dias.</h1>
-          <p>”Hoje vivo, no mercado, o que shonei e planejei no meu início.”</p>
+          <p>”Hoje vivo, no mercado, o que sonhei e planejei no meu início.”</p>
           <ul>
             <li>
               <div className="li-icon "></div>
