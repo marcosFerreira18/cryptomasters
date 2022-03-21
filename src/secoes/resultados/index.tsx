@@ -25,15 +25,20 @@ const Resultados: React.FC = () => {
                 <BoxIcon>
                   <Candle />
                 </BoxIcon>
-                <Span>Buy/Ssell</Span>
-                <Description>Aprenda a hora de compar e vender.</Description>
+                <Span>Buy/Sell</Span>
+                <Description>
+                  Aprenda a melhor hora de compar e vender.
+                </Description>
               </div>
               <div className="col-6">
                 <BoxIcon>
                   <Analise />
                 </BoxIcon>
                 <Span> Resultados </Span>
-                <Description>Preveja e analise seus resultados.</Description>
+                <Description>
+                  Aprenda nossos setups, e torne seus resultados mais
+                  previsíveis
+                </Description>
               </div>
               <div className="col-6">
                 <BoxIcon>

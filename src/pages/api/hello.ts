@@ -38,7 +38,7 @@ export const Api = {
     {
       img: "setup.png",
       titulo: "SET-UP PROFISSIONAL",
-      descricao: `Configure o seu set-up como um profssional faz. Saiba quais indicadores usar a cada mudança do mercado. Aumente sua assertividade aplicado técnicas profissionais.`,
+      descricao: `Configure o seu set-up como um profissional faz. Saiba quais indicadores usar a cada mudança do mercado. Aumente sua assertividade aplicando técnicas profissionais.`,
     },
   ],
   modulos: [

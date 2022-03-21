@@ -47,7 +47,7 @@ const Topicos: React.FC = () => {
           <div className="col-md-4">
             <CarcBooks>
               <img src="book.png" alt="resultados" className="img-cover-card" />
-              <h3>Diciário de Criptomoedas</h3>
+              <h3>Dicionário de Criptomoedas</h3>
               <p>
                 Principais termos do universo cripto que você não pode deixar de
                 conhecer.
