@@ -47,7 +47,7 @@ const Profile: React.FC = () => {
           </NameProfile>
         </ImageContainerProfile>
         <DetailProfile>
-          <h4>15 ANOS DE EXPERIÊNCIA</h4>
+          <h4>6 ANOS DE EXPERIÊNCIA</h4>
           <h1>Curso criado por quem opera no mercado cripto todos os dias.</h1>
           <p>”Hoje vivo, no mercado, o que shonei e planejei no meu início.”</p>
           <ul>
