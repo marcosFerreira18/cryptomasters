@@ -1,11 +1,11 @@
 import React from "react";
 
-// import { Container } from './styles';
+// import { Container, BoxIcon } from './styles';
 import Candle from "../../assets/candle.svg";
 import Capital from "../../assets/capital.svg";
 import Analise from "../../assets/analis.svg";
 import Bear from "../../assets/bear.svg";
-import { Span, Title, Description, SectionConteudo } from "./styles";
+import { Span, Title, Description, SectionConteudo, BoxIcon } from "./styles";
 const Resultados: React.FC = () => {
   return (
     <SectionConteudo>
@@ -22,22 +22,30 @@ const Resultados: React.FC = () => {
 
             <div className="row">
               <div className="col-6">
-                <Candle />
+                <BoxIcon>
+                  <Candle />
+                </BoxIcon>
                 <Span>Buy/Ssell</Span>
                 <Description>Aprenda a hora de compar e vender.</Description>
               </div>
               <div className="col-6">
-                <Analise />
+                <BoxIcon>
+                  <Analise />
+                </BoxIcon>
                 <Span> Resultados </Span>
                 <Description>Preveja e analise seus resultados.</Description>
               </div>
               <div className="col-6">
-                <Capital />
+                <BoxIcon>
+                  <Capital />
+                </BoxIcon>
                 <Span>Capital</Span>
                 <Description>Opere você mesmo seu capital.</Description>
               </div>
               <div className="col-6">
-                <Bear />
+                <BoxIcon>
+                  <Bear />
+                </BoxIcon>
                 <Span>Short</Span>
                 <Description>Opere vendido e lucre com a queda</Description>
               </div>

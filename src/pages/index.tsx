@@ -49,55 +49,7 @@ const Home: NextPage = () => {
       </Head>
       <Hero />
       <Resultados />
-      {/* <SectionConteudo>
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-6">
-              <h3>CURSO</h3>
-              <h2>CRYPTO MASTERS</h2>
-              <p>
-                Crypto Masters é um curso online de ativos digitais onde você
-                vai aprender do zero ao lucro como investir com segurança e
-                confiança nos ativos mais promissores da década.
-              </p>
 
-              <div className="row">
-                <div className="col-6">
-                  <Candle />
-                  <h3>Buy/Ssell</h3>
-                  <p>Aprenda a hora de compar e vender.</p>
-                </div>
-                <div className="col-6">
-                  <Analise />
-                  <h3> Resultados </h3>
-                  <p>Preveja e analise seus resultados.</p>
-                </div>
-                <div className="col-6">
-                  <Capital />
-                  <h3>Capital</h3>
-                  <p>Opere você mesmo seu capital.</p>
-                </div>
-                <div className="col-6">
-                  <Bear />
-                  <h3>Short</h3>
-                  <p>Opere vendido e lucre com a queda</p>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-lg-6"
-              style={{ display: "flex", justifyContent: "center" }}
-            >
-              <img
-                src="resultados.png"
-                alt="resultados"
-                className="img-resultado"
-              />
-            </div>
-          </div>
-        </div>
-      </SectionConteudo>
-       */}
       {/* <SectionConteudo /> */}
       <Topicos />
       <Profile />

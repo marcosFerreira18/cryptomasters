@@ -1,6 +1,12 @@
 import React from "react";
 import { Api } from "../../pages/api/hello";
-import { CardTopicos, HeadCardTopicos, SectionTopicos } from "./styles";
+import {
+  CarcBooks,
+  CardTopicos,
+  Gratuito,
+  HeadCardTopicos,
+  SectionTopicos,
+} from "./styles";
 const Topicos: React.FC = () => {
   return (
     <SectionTopicos>
@@ -11,7 +17,7 @@ const Topicos: React.FC = () => {
         <div className="row">
           {Api.topicos.map((m, i) => {
             return (
-              <div className="col-md-6"  key={i}>
+              <div className="col-md-6" key={i}>
                 <CardTopicos>
                   <HeadCardTopicos>
                     <img
@@ -29,40 +35,81 @@ const Topicos: React.FC = () => {
         </div>
       </div>
       <br />
-      <br />
       <hr />
-      <br />
-      <br />
       <br />
       <div className="container">
         <div className="row">
           <h1>🎁 🎁 🎁 </h1>
           <h2>O que você vai receber de presente:</h2>
-          <p>Tenha na sua mão verdaddeiros manuais de geração de renda.</p>
+          <p>Tenha na sua mão verdadeiros manuais de geração de renda.</p>
         </div>
         <div className="row">
           <div className="col-md-4">
-            <img src="e1.jpg" alt="resultados" className="img-cover-card" />
+            <CarcBooks>
+              <img src="book.png" alt="resultados" className="img-cover-card" />
+              <h3>Diciário de Criptomoedas</h3>
+              <p>
+                Principais termos do universo cripto que você não pode deixar de
+                conhecer.
+              </p>
+              <h2>
+                <s>R$ 97*</s>
+              </h2>
+              <h6>*se comprado separadamente</h6>
+              <Gratuito>🎁 AQUI VC RECEBE DE GRAÇA 🎁</Gratuito>
+            </CarcBooks>
           </div>
           <div className="col-md-4">
-            <img src="e2.jpg" alt="resultados" className="img-cover-card" />
+            <CarcBooks>
+              <img
+                src="ebook2.png"
+                alt="resultados"
+                className="img-cover-card"
+              />
+              <h3>Padrões de Candlesticks</h3>
+              <p>
+                Ebook completo com todos os padrões que você precisa saber para
+                operar.
+              </p>
+              <h2>
+                <s>R$ 97*</s>
+              </h2>
+              <h6>*se comprado separadamente</h6>
+              <Gratuito>🎁 AQUI VC RECEBE DE GRAÇA 🎁</Gratuito>
+            </CarcBooks>
           </div>
           <div className="col-md-4">
-            <img src="e3.jpg" alt="resultados" className="img-cover-card" />
+            <CarcBooks>
+              <img
+                src="ebook3.png"
+                alt="resultados"
+                className="img-cover-card"
+              />
+              <h3>Padrões Gráficos</h3>
+              <p>
+                Ebook completo como os principais padrōes gráficos e como
+                usá-los.
+              </p>
+              <h2>
+                <s>R$ 97*</s>
+              </h2>
+              <h6>*se comprado separadamente</h6>
+              <Gratuito>🎁 AQUI VC RECEBE DE GRAÇA 🎁</Gratuito>
+            </CarcBooks>
           </div>
         </div>
-        <div className="row">
+        {/* <div className="row">
           <div className="box-presente">
             <p>
               Juntos estes manuais somam
               <b>
-                <s> R$298,00</s>.
+                <s> R$291,00</s>.
               </b>
               <br />
               Aqui você os receberá de presente.
             </p>
           </div>
-        </div>
+        </div> */}
       </div>
     </SectionTopicos>
   );

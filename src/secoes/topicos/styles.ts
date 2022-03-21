@@ -18,10 +18,6 @@ export const SectionTopicos = styled.section`
   }
   .col-md-4 {
     padding: 10px;
-    img {
-      width: 100%;
-      margin: 20px 0;
-    }
   }
   h2 {
     font-family: "Montserrat";
@@ -95,4 +91,67 @@ export const HeadCardTopicos = styled.div`
       text-align: center;
     }
   }
+`;
+
+export const CarcBooks = styled.div`
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #c2caccaa;
+  box-sizing: border-box;
+  border-radius: 1px;
+  padding: 10px;
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  img {
+    max-width: 100%;
+    max-height: 350px;
+  }
+  h3 {
+    text-align: center;
+    color: #0b0b0b;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  p {
+    text-align: center;
+    color: #0b0b0baa;
+    font-family: Montserrat;
+    font-size: 14px;
+    margin-top: 10px;
+    max-width: 80%;
+    line-height: 14px;
+  }
+  h2 {
+    text-align: center;
+    color: #f71a5c;
+    font-family: Montserrat;
+    font-size: 32px;
+    max-width: 80%;
+  }
+  h6 {
+    text-align: center;
+    color: #22222288;
+    font-family: Montserrat;
+    font-size: 12px;
+    max-width: 80%;
+    line-height: 14px;
+  }
+`;
+
+export const Gratuito = styled.div`
+  background-color: #6F97FC;
+  font-family: Montserrat;
+  font-weight: bolder;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+  /* border-radius: 50px; */
 `;

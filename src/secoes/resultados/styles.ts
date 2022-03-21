@@ -19,6 +19,10 @@ export const SectionConteudo = styled.section`
   }
 `;
 
+export const BoxIcon = styled.div`
+  padding: 10px;
+  padding-left: 0;
+`;
 export const Span = styled.h3`
   font-family: Syncopate;
   font-style: normal;
