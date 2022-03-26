@@ -63,7 +63,10 @@ export default class MyDocument extends Document {
             rel="stylesheet"
           />
 
-          <link href="../assets/fonts/Roboto/Roboto-Bold.ttf" rel="stylesheet" />
+          <link
+            href="../assets/fonts/Roboto/Roboto-Bold.ttf"
+            rel="stylesheet"
+          />
           <link
             href="../assets/fonts/Raleway/Raleway-Italic-VariableFont_wght.ttf"
             rel="stylesheet"
@@ -75,7 +78,10 @@ export default class MyDocument extends Document {
 
           <meta property="og:type" content="website" />
           <meta property="og:url" content="https://cryptomasters.com.br" />
-          <meta property="og:title" content="Não perca a próxima onda!" />
+          <meta
+            property="og:title"
+            content="Aprenda a lucrar com criptoativos!"
+          />
           <meta
             property="og:description"
             content="Escale seus investimentos com a força das criptomoedas."
@@ -91,7 +97,10 @@ export default class MyDocument extends Document {
             property="twitter:url"
             content="https://cryptomasters.com.br/"
           />
-          <meta property="twitter:title" content="Não perca a próxima onda!" />
+          <meta
+            property="twitter:title"
+            content="Aprenda a lucrar com criptoativos!"
+          />
           <meta
             property="twitter:description"
             content="Escale seus investimentos com a força dos criptoativos."
@@ -122,8 +131,27 @@ export default class MyDocument extends Document {
           `,
             }}
           />
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+              (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+              new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+              j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+              'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+              })(window,document,'script','dataLayer','GTM-54L8CT6');
+          `,
+            }}
+          />
         </Head>
         <body>
+          <noscript>
+            <iframe
+              src="https://www.googletagmanager.com/ns.html?id=GTM-54L8CT6"
+              height="0"
+              width="0"
+              style={{ display: "none", visibility: "hidden" }}
+            ></iframe>
+          </noscript>
           <Main />
           <NextScript />
         </body>
