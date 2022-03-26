@@ -8,6 +8,7 @@ import theme from "../styles/theme";
 import "bootstrap/dist/css/bootstrap.css"; // Add this line
 import "../styles/fonts.css";
 import * as gtag from "../utils/gtag";
+import { hotjar } from 'react-hotjar'
 
 const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
   const router = useRouter();
@@ -37,6 +38,10 @@ const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
         });
       });
   }, [router.events]);
+
+  useEffect(() => { 
+    hotjar.initialize(2894831, 6) 
+  }, [])
 
   useEffect(() => {
     const handleRouteChange = (url: URL) => {
