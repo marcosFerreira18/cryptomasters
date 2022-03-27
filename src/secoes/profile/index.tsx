@@ -40,7 +40,7 @@ const Profile: React.FC = () => {
           </h6>
         </TitleContainerProfile>
         <ImageContainerProfile>
-          <img src="erikson-trade.jpg" alt="erikson" />
+          <img src="erikson-trade.webp" alt="erikson" />
           <NameProfile>
             <CircleIcon>🚀</CircleIcon>
             <h1>Erikson Mateus</h1>

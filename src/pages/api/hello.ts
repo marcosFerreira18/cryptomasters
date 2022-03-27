@@ -16,32 +16,32 @@ type Data = {
 export const Api = {
   topicos: [
     {
-      img: "alavancagem.png",
+      img: "alavancagem.webp",
       titulo: "ALAVANCAGEM [SHORT E LONG]",
       descricao: `2022 promete ser um ano de fortes emoções em cripto, que seja também de fortes ganhos! Aprenda as ferramentas, e estratégias, que uso para lucrar mesmo com o mercado em queda!`,
     },
     {
-      img: "analise-tec.png",
+      img: "analise-tec.webp",
       titulo: "ANÁLISE TÉCNICA",
       descricao: `Domine Análise Gráfica e faça a movimentação de preços trabalhar a seu favor. Aprenda a ler a tendência e nadar com as baleias, seja na alta ou na baixa, LUCRE! Chega de ser tragado pelo mercado!`,
     },
     {
-      img: "ganhos.png",
+      img: "ganhos.webp",
       titulo: "GANHOS CONSISTENTES",
       descricao: `Use ferramentas de análise para encontrar os projetos mais promissores, conciliando análise gráfica e fundamentalista. Whitepaper - Metaverso | Defi | NFTs. Candles, Padrões Gráficos, Indicadores Gráficos e etc).`,
     },
     {
-      img: "trade.png",
+      img: "trade.webp",
       titulo: "TRADE DE CRIPTOATIVOS",
       descricao: `Através do nosso método, aprenda a usar a fusão entre Análise Técnica e Fundamentalista a seu favor. Faremos operações usando os principais set-ups de entrada e saída com estratégias de moderadas a agressivas.`,
     },
     {
-      img: "risco.png",
+      img: "risco.webp",
       titulo: "GERENCIAMENTO DE RISCO",
       descricao: `Entenda como o Stop pode ser seu alido para evitar maiores perdas. Vamos falar principalmente sobre Stop Financeiro e Stop Técnico e como eles podem evitar a sua ruína.`,
     },
     {
-      img: "setup.png",
+      img: "setup.webp",
       titulo: "SET-UP PROFISSIONAL",
       descricao: `Configure o seu set-up como um profissional faz. Saiba quais indicadores usar a cada mudança do mercado. Aumente sua assertividade aplicando técnicas profissionais.`,
     },

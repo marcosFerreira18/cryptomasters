@@ -61,7 +61,7 @@ const Resultados: React.FC = () => {
             style={{ display: "flex", justifyContent: "center" }}
           >
             <img
-              src="resultados1.png"
+              src="resultados1.webp"
               alt="resultados"
               className="img-resultado"
             />
