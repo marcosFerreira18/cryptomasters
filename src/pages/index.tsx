@@ -1,26 +1,16 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import React from "react";
-import { ButtonCta, FirstSection } from "../styles/components/header-page";
-import Candle from "../assets/candle.svg";
-import Capital from "../assets/capital.svg";
-import Analise from "../assets/analis.svg";
-import Bear from "../assets/bear.svg";
-import Image from "next/image";
-import { HeaderPage } from "../styles/components/header-page";
-
-import { SectionSecondary } from "../styles/components/section-secondary";
-import Modulos from "../secoes/modulos";
-// import SectionConteudo from ".././secoes/conteudo";
-import Topicos from "../secoes/topicos";
-import Checkout from "../secoes/checkout";
-import LogoSite from "../assets/logo-masters.svg";
-import Hero from "../secoes/hero";
 import ChatBot, { ChatBotProps } from "../chatBot";
 import Footer from "../footer";
-import { SectionConteudo } from "../styles/components/section-conteudo";
-import Resultados from "../secoes/resultados";
+import Checkout from "../secoes/checkout";
+import Hero from "../secoes/hero";
+import Modulos from "../secoes/modulos";
 import Profile from "../secoes/profile";
+import Resultados from "../secoes/resultados";
+// import SectionConteudo from ".././secoes/conteudo";
+import Topicos from "../secoes/topicos";
+
 
 const Home: NextPage = () => {
   let contatoChatBot: ChatBotProps = {

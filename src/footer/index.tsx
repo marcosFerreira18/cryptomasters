@@ -1,10 +1,8 @@
 import React from "react";
-import { ButtonCta, SubButton, SubPricing } from "../secoes/checkout/styles";
+import { ButtonCta, SubButton } from "../secoes/checkout/styles";
 import {
-  FooterContainer,
-  DisclamerText,
   CheckoutDiv,
-  DisclamerContainer,
+  DisclamerContainer, DisclamerText, FooterContainer
 } from "./styles";
 
 // import { Container } from './styles';

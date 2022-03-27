@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 import {
   CircleIcon,
@@ -7,10 +8,9 @@ import {
   NameProfile,
   SectionProfile,
   Title,
-  TitleContainerProfile,
+  TitleContainerProfile
 } from "./styles";
 
-import Image from "next/image";
 
 const Profile: React.FC = () => {
   return (

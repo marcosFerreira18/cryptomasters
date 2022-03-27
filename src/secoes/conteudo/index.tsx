@@ -1,12 +1,9 @@
 import React from "react";
 import {
-  HeadLine,
-  Description,
-  SectionConteudo,
+  HeadLine, SectionConteudo,
   SubHeadLine,
-  Topico,
+  Topico
 } from "../../styles/components/section-conteudo";
-import { SectionSecondary } from "../../styles/components/section-secondary";
 const Conteudo: React.FC = () => {
   return (
     <SectionConteudo>

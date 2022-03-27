@@ -1,18 +1,6 @@
 import React, { useState } from "react";
 import {
-  BioCotactChatBot,
-  BodyChatBot,
-  ContainerChatBot,
-  DisclamerTextChatBot,
-  FooteerChatBot,
-  HeaderChatBot,
-  ImageProfileChatBot,
-  InputChatBot,
-  MessageItemChatBot,
-  MessageListChatBot,
-  MessageTextChatBot,
-  NameCotactChatBot,
-  SendButtonChatBot,
+  ContainerChatBot, ImageProfileChatBot
 } from "./styles";
 
 export type ChatBotProps = {
@@ -24,7 +12,7 @@ export type ChatBotProps = {
 
 const ChatBot: React.FC<ChatBotProps> = (contato: ChatBotProps) => {
   const [msgInput, setMsgInput] = useState(
-    "Quero entender mais sobre o curso."
+    "Quero entender mais sobre o curso CryptoMasters."
   );
 
   function abrirWhatsapp() {

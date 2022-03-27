@@ -1,11 +1,10 @@
 import React from "react";
-
-import Image from "next/image";
-import Candle from "../../assets/candle.svg";
-import Capital from "../../assets/capital.svg";
 import Analise from "../../assets/analis.svg";
 import Bear from "../../assets/bear.svg";
-import { Span, Title, Description, SectionConteudo, BoxIcon } from "./styles";
+import Candle from "../../assets/candle.svg";
+import Capital from "../../assets/capital.svg";
+import { BoxIcon, Description, SectionConteudo, Span, Title } from "./styles";
+
 const Resultados: React.FC = () => {
   return (
     <SectionConteudo>

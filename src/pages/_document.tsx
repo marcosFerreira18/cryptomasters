@@ -1,15 +1,11 @@
-import React from "react";
 import Document, {
-  DocumentInitialProps,
-  DocumentContext,
-  Html,
-  Head,
-  Main,
-  NextScript,
+  DocumentContext, DocumentInitialProps, Head, Html, Main,
+  NextScript
 } from "next/document";
+import React from "react";
 import { ServerStyleSheet } from "styled-components";
-
 import { GA_TRACKING_ID } from "../utils/gtag";
+
 
 export default class MyDocument extends Document {
   static async getInitialProps(

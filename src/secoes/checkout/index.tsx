@@ -1,19 +1,18 @@
 import React from "react";
-// import { ButtonCta } from "../../styles/components/header-page";
+import LogoSite from "../../assets/logo-masters.svg";
 import {
-  CheckoutContainer,
   BoxValue,
-  SectionCheckout,
   ButtonCta,
+  CheckoutContainer,
   CheckoutContainerItens,
-  TitleCheckout,
+  Container,
+  SectionCheckout,
   Span,
-  SubtitlePricing,
   SubButton,
   SubPricing,
-  Container,
+  SubtitlePricing,
+  TitleCheckout,
 } from "./styles";
-import LogoSite from "../../assets/logo-masters.svg";
 
 const Checkout: React.FC = () => {
   return (

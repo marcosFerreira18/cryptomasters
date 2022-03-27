@@ -1,7 +1,7 @@
 import React from "react";
-import { SectionSecondary } from "../../styles/components/section-secondary";
 import { Api } from "../../pages/api/hello";
 import Accordion from "../../styles/components/accordion";
+import { SectionSecondary } from "../../styles/components/section-secondary";
 const Modulos: React.FC = () => {
   return (
     <SectionSecondary>

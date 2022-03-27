@@ -1,14 +1,14 @@
-import React, { useEffect } from "react";
-import { useRouter } from "next/router";
-
+import "bootstrap/dist/css/bootstrap.css"; // Add this line
 import type { AppProps } from "next/app";
+import { useRouter } from "next/router";
+import React, { useEffect } from "react";
+import { hotjar } from 'react-hotjar';
 import { ThemeProvider } from "styled-components";
+import "../styles/fonts.css";
 import GlobalStyle from "../styles/global";
 import theme from "../styles/theme";
-import "bootstrap/dist/css/bootstrap.css"; // Add this line
-import "../styles/fonts.css";
 import * as gtag from "../utils/gtag";
-import { hotjar } from 'react-hotjar'
+
 
 const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
   const router = useRouter();
