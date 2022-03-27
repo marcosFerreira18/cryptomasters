@@ -43,6 +43,7 @@ const Topicos: React.FC = () => {
         <div className="row">
           <h1>🎁 🎁 🎁 </h1>
           <Span>PRESENTES QUE VOCÊ VAI RECEBER AQUI</Span>
+          <Title>3 BÔNUS EXCLUSIVOS</Title>
           <p>Tenha na sua mão verdadeiros manuais de geração de renda.</p>
         </div>
         <div className="row">
