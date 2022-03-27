@@ -1,6 +1,6 @@
 import React from "react";
 
-// import { Container, BoxIcon } from './styles';
+import Image from "next/image";
 import Candle from "../../assets/candle.svg";
 import Capital from "../../assets/capital.svg";
 import Analise from "../../assets/analis.svg";
@@ -58,13 +58,14 @@ const Resultados: React.FC = () => {
           </div>
           <div
             className="col-lg-6"
-            style={{ display: "flex", justifyContent: "center" }}
+            // style={{ display: "flex", justifyContent: "center" }}
           >
             <img
               src="resultados1.webp"
               alt="resultados"
               className="img-resultado"
             />
+        
           </div>
         </div>
       </div>

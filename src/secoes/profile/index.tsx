@@ -10,7 +10,7 @@ import {
   TitleContainerProfile,
 } from "./styles";
 
-// import { Container } from './styles';
+import Image from "next/image";
 
 const Profile: React.FC = () => {
   return (
@@ -40,7 +40,8 @@ const Profile: React.FC = () => {
           </h6>
         </TitleContainerProfile>
         <ImageContainerProfile>
-          <img src="erikson-trade.webp" alt="erikson" />
+          {/* <img src="erikson-trade.webp" alt="erikson" /> */}
+          <Image src="/erikson-trade.webp" width={414} height={561} />
           <NameProfile>
             <CircleIcon>🚀</CircleIcon>
             <h1>Erikson Mateus</h1>
@@ -64,7 +65,6 @@ const Profile: React.FC = () => {
               <div className="li-text">Criador do curso CryptoMasters</div>
             </li>
           </ul>
-         
         </DetailProfile>
       </ContainerProfile>
     </SectionProfile>

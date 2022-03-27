@@ -69,12 +69,7 @@ export const CardTopicos = styled.div`
 export const HeadCardTopicos = styled.div`
   display: flex;
   width: 100%;
-  img {
-    border-radius: 5px;
-    width: 118px;
-    height: 56px;
-    margin-bottom: 15px;
-  }
+ margin-bottom: 10px;
   h2 {
     font-family: "Montserrat";
     font-style: normal;
