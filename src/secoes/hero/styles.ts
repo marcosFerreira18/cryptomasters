@@ -9,7 +9,13 @@ export const HeroSection = styled.section`
   flex-direction: column;
   background-color: #010101;
   position: relative;
-  @media screen and (max-width: 430px) {
+
+  .icon-logo {
+    max-height: 100%;
+    margin-bottom: 20px;
+  }
+
+  @media screen and (max-width: 530px) {
     padding: 50px 20px 0px 20px;
     align-items: flex-start;
   }
@@ -18,11 +24,10 @@ export const HeroSection = styled.section`
     position: absolute;
     width: 100%;
     height: 100%;
-    -o-object-fit: cover;
     object-fit: cover;
     top: 0;
     left: 0;
-    opacity: 0.2;
+    opacity: 0.15;
     /* z-index: -1; */
   }
 `;
@@ -34,7 +39,7 @@ export const Descricao = styled.p`
   font: 500 20px "Montserrat";
   text-align: center;
   max-width: 50%;
-  @media screen and (max-width: 430px) {
+  @media screen and (max-width: 530px) {
     text-align: left;
     font: 500 16px "Montserrat";
     max-width: 100%;
@@ -51,7 +56,7 @@ export const Titulo = styled.h4`
   text-transform: uppercase;
   color: #ffffff;
   z-index: 1;
-  @media screen and (max-width: 430px) {
+  @media screen and (max-width: 530px) {
     /* font-size: 48px;
   line-height: 48px; */
     text-align: left;
@@ -66,7 +71,7 @@ export const SubTitulo = styled.h4`
   line-height: 75px;
   color: #c0ff14;
   z-index: 1;
-  @media screen and (max-width: 430px) {
+  @media screen and (max-width: 530px) {
     font-size: 47px;
     line-height: 55px;
 

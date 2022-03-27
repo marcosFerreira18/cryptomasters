@@ -1,15 +1,15 @@
 import Link from "next/link";
 import React from "react";
 import { BtnCta, Descricao, HeroSection, SubTitulo, Titulo } from "./styles";
+import LogoSite from "../../assets/logo-masters.svg";
 
 const Hero: React.FC = () => {
   return (
     <HeroSection>
-      <video autoPlay muted className="bgsec-first" loop id="myVideo">
-        <source src="./video.mp4" type="video/mp4" />
-      </video>
+      <img className="bgsec-first" src="./bg_meta.webp" />
+      <LogoSite className="icon-logo" />
       <Titulo>
-        LUCRE TODOs os DIAs <br />
+        LUCRE TODOS OS DIAS<br/>
         COM CRIPTO!
       </Titulo>
       <SubTitulo>COMECE HOJE</SubTitulo>

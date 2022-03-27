@@ -1,5 +1,6 @@
 import React from "react";
 import { Api } from "../../pages/api/hello";
+import { Title, Span } from "../resultados/styles";
 import {
   CarcBooks,
   CardTopicos,
@@ -12,7 +13,8 @@ const Topicos: React.FC = () => {
     <SectionTopicos>
       <div className="container">
         <div className="row">
-          <h2>O QUÊ VOCÊ VAI APRENDER NO CURSO:</h2>
+          <Span>O QUÊ VOCÊ VAI APRENDER NO</Span>
+          <Title>CRYPTO MASTERS</Title>
         </div>
         <div className="row">
           {Api.topicos.map((m, i) => {
@@ -40,7 +42,7 @@ const Topicos: React.FC = () => {
       <div className="container">
         <div className="row">
           <h1>🎁 🎁 🎁 </h1>
-          <h2>O que você vai receber de presente:</h2>
+          <Span>PRESENTES QUE VOCÊ VAI RECEBER AQUI</Span>
           <p>Tenha na sua mão verdadeiros manuais de geração de renda.</p>
         </div>
         <div className="row">

@@ -21,6 +21,11 @@ export const Api = {
       descricao: `2022 promete ser um ano de fortes emoções em cripto, que seja também de fortes ganhos! Aprenda as ferramentas, e estratégias, que uso para lucrar mesmo com o mercado em queda!`,
     },
     {
+      img: "analise-tec.png",
+      titulo: "ANÁLISE TÉCNICA",
+      descricao: `Domine Análise Gráfica e faça a movimentação de preços trabalhar a seu favor. Aprenda a ler a tendência e nadar com as baleias, seja na alta ou na baixa, LUCRE! Chega de ser tragado pelo mercado!`,
+    },
+    {
       img: "ganhos.png",
       titulo: "GANHOS CONSISTENTES",
       descricao: `Use ferramentas de análise para encontrar os projetos mais promissores, conciliando análise gráfica e fundamentalista. Whitepaper - Metaverso | Defi | NFTs. Candles, Padrões Gráficos, Indicadores Gráficos e etc).`,

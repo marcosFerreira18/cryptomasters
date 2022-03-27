@@ -32,9 +32,9 @@ const Home: NextPage = () => {
 
   return (
     <div>
-      <HeaderPage>
+      {/* <HeaderPage>
         <LogoSite className="icon-logo" />
-      </HeaderPage>
+      </HeaderPage> */}
       <Head>
         <title>Crypto Masters: Curso de Criptoativos</title>
         <meta

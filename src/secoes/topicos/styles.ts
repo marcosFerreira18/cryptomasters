@@ -19,14 +19,18 @@ export const SectionTopicos = styled.section`
   .col-md-4 {
     padding: 10px;
   }
-  h2 {
+  h3 {
     font-family: "Montserrat";
     font-style: normal;
     font-weight: 700;
-    font-size: 36px;
-    line-height: 42px;
+    font-size: 20px;
     color: #1a191c;
+    letter-spacing: 0px;
   }
+  h2 {
+    font-weight: bold;
+  }
+
   @media screen and (max-width: 768px) {
     padding: 20px;
     h2 {
@@ -79,6 +83,7 @@ export const HeadCardTopicos = styled.div`
     line-height: 28px;
     max-width: 45%;
     margin-left: 15px;
+    color: #1a191c;
   }
   @media screen and (max-width: 768px) {
     flex-direction: column-reverse;
@@ -146,7 +151,7 @@ export const CarcBooks = styled.div`
 `;
 
 export const Gratuito = styled.div`
-  background-color: #6F97FC;
+  background-color: #102A6D;
   font-family: Montserrat;
   font-weight: bolder;
   color: #fff;
